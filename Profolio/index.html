@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <title>Home</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css">
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+      <script src="path/to/fontawesome.js"></script>
+      <script>
+         function toggleNavbar() {
+           var navbarMenu = document.getElementById("navbar-menu");
+           navbarMenu.style.display = (navbarMenu.style.display === "block") ? "none" : "block";
+         }
+
+        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+        }
+      </script>
+   </head>
+   <body>
+      <div class="navbar">
+         <div class="navbar-toggle" onclick="toggleNavbar()">
+            <i class="fa fa-bars"></i>
+         </div>
+         <div class="navbar-menu" id="navbar-menu">
+            <ul>
+               <li><a href="index.html" >Home</a></li>
+               <li><a href="page2.html" >Work Experience</a></li>
+               <li><a href="page3.html" >Work Experience</a></li>
+               <li><a href="page4.html" >Skills and Expertise </a></li>
+               <li><a href="page5.html" >About Me</a></li>
+               <li><a href="page6.html" >Web Design Sample</a></li>
+               <li><a href="page7.php" >Contact </a></li>
+            </ul>
+         </div>
+      </div>
+      <header>
+         <div class="con">
+            <h1 class="ih1">Wei Cheng Chao</h1>
+         </div>
+        <br>
+        <button onclick="myFunction()" class="fa fa-moon-o button-89 top-left-corner"></button>
+         <div class="center">
+            <img src="Img/home.JPG" alt="Wei" class="himg">
+         </div>
+      </header>
+      <footer class="ifooter">
+         <p>&copy; Wei's Portfolio. All rights reserved.</p>
+         <a href="Wei.pdf" class="button-4" download>Download Resume</a>
+      </footer>
+     
+      <script src="https://replit.com/public/js/replit-badge-v2.js"></script>
+   </body>
+</html>

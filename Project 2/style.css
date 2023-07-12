@@ -1,0 +1,141 @@
+body {
+	background-image: url("bg.jpg");
+	background-color: lightgray;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-family: fantasy;
+	line-height: 1.5;
+}
+
+header {
+	margin: 20px;
+	padding: 30px;
+	text-align: center;
+	background-color: transparent;
+	color: whitesmoke;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 7px 25px;
+	display: inline-block;
+}
+
+nav ul li a:hover {
+	background-color: #eaeaea;
+}
+
+section {
+	background-color: #ffffff;
+	margin: 30px;
+	border-radius: 5px;
+}
+
+h1,
+h2 {
+	position: relative;
+	top: 20px;
+	color: #333;
+	text-align: center;
+	background-color: #ffcccc;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: 10px;
+	color: #777;
+	width: 100%;
+}
+
+footer {
+	padding: 0%;
+	color: #fff;
+	text-align: center;
+}
+
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.fixed-header {
+	width: 100%;
+	position: fixed;
+	background: transparent;
+	margin: 20px;
+	padding: 30px;
+
+}
+
+.fixed-header {
+	top: 0;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	/* Center the DIV horizontally */
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.column0 {
+	float: left;
+	width: 35%;
+	padding: 25px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+p {
+	position: relative;
+	top: 25px;
+	text-indent: 50px;
+
+}
+
+.fa {
+	filter: opacity(80%);
+}
+
+.fb {
+	filter: opacity(93%);
+}
+
+.uls {
+	list-style-image: url("list.gif");
+}

@@ -1,0 +1,135 @@
+body {
+	background-image: url("tea.jpg");
+	background-color: rgb(255, 246, 226);
+	margin: 0;
+  padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+h2 {
+	color: rgb(255, 255, 255);
+	font-family: 'Lucida Sans', Arial, sans-serif;
+}
+
+.h2-p {
+	font-style: italic;
+	font-size: 12px;
+	font-family: cursive;
+}
+
+h3 {
+	color: rgb(255, 255, 255);
+	font-size: 17px;
+}
+
+h4 {
+	color: rgb(255, 255, 255);
+	font-size: 17px;
+}
+
+.h5-b {
+	color: whitesmoke;
+	font-family: fantasy;
+}
+
+h6 {
+	color: whitesmoke;
+	font-family: 'Lucida Handwriting', cursive;
+}
+
+ol {
+	color: whitesmoke;
+
+}
+
+ul {
+	color: white;
+	list-style-type: circle;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	font-family: initial;
+
+}
+
+p {
+	color: rgb(255, 255, 255);
+	font-family: 'Times New Roman', Times, cursive;
+	font-size: 13px;
+}
+
+img {
+	border-radius: 5px 5px 25px 25px;
+	padding: 5px;
+	width: auto;
+	filter: opacity(80%);
+}
+
+.my-boat-body {
+	background-image: url("water.jpg");
+	background-color: rgb(255, 241, 210);
+	margin: 0;
+  padding: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.button {
+	background-image: url("wood.jpg");
+	background-color: #55230aef;
+	border-radius: 25px 10px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: cursive;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button-s {
+	background-image: url("ocean.jpg");
+	background-color: #55230aef;
+	border-radius: 25px 10px;
+	color: rgb(255, 255, 255);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: cursive;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.column {
+	column-count: 3;
+	column-gap: 40px;
+}
+
+.quote {
+	color: rgb(240, 255, 255, 0.938);
+	text-align: center;
+	font-family: fantasy;
+}

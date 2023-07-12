@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <title>Web Design Sample</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css">
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+      <script src="path/to/fontawesome.js"></script>
+      <script>
+         function toggleNavbar() {
+           var navbarMenu = document.getElementById("navbar-menu");
+           navbarMenu.style.display = (navbarMenu.style.display === "block") ? "none" : "block";
+         }
+
+        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+        }
+      </script>
+   </head>
+   <body>
+      <header>
+         <div class="navbar">
+            <div class="navbar-toggle" onclick="toggleNavbar()">
+               <i class="fa fa-bars"></i>
+            </div>
+            <div class="navbar-menu" id="navbar-menu">
+               <ul>
+               <li><a href="index.html" >Home</a></li>
+               <li><a href="page2.html" >Work Experience</a></li>
+               <li><a href="page3.html" >Work Experience</a></li>
+               <li><a href="page4.html" >Skills and Expertise </a></li>
+               <li><a href="page5.html" >About Me</a></li>
+               <li><a href="page6.html" >Web Design Sample</a></li>
+               <li><a href="page7.php" >Contact </a></li>
+            </ul>
+            </div>
+         </div>
+         <h1>Web Design Sample</h1>
+
+        <br>
+        <button onclick="myFunction()" class="fa fa-moon-o button-89 top-left-corner"></button>
+      </header>
+      <main>
+         <div class="center">
+            <h2>Project 1</h2>
+            <a href="https://project1-chaolin99.it240-spring-23.repl.co" class="button-54">Project 1</a> 
+            <h3>Project 2</h3>
+            <a href="https://project2-chaolin99.it240-spring-23.repl.co" class="button-54">Project 2</a>
+            <h4>Project 3</h4>
+            <a href="https://project-3-chaolin99.it240-spring-23.repl.co" class="button-54">Project 3</a>
+            <h5>Project 4</h5>
+            <a href="https://project-4-chaolin99.it240-spring-23.repl.co" class="button-54">Project 4</a>
+         </div>
+      </main>
+      <p class="icenter">WEB DESIGN AND TECHNOLOGY</p>
+      <p class="icenter">Course Outcomes</p>
+      <ul class="icenter">
+         <li>Build standards-based HTML5 Web pages</li>
+         <li>Design Web sites using HTML for structure and CSS for presentation. In other words, design sites with a clean separation between page structure and page presentation</li>
+         <li>Implement and publish Web sites using industry standard Web hosting servers</li>
+         <li>Develop usable sites and demonstrate design strategies</li>
+         <li>Know about advanced web development tools and strategies</li>
+      </ul>
+      <footer>
+         <p>&copy; Wei's Portfolio. All rights reserved.</p>
+         <a href="Wei.pdf" class="button-4" download>Download Resume</a>
+      </footer>
+      <script src="https://replit.com/public/js/replit-badge-v2.js"></script>
+   </body>
+</html>

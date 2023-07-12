@@ -1,0 +1,85 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif;
+}
+
+.w3-row-padding img {
+	margin-bottom: 12px;
+}
+
+.bgimg {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("img/mont.jpg");
+	min-height: 100%;
+}
+
+nav{
+  display:none;
+  padding-top:150px;
+  right:0;
+  z-index:2;
+}
+
+.con{
+  margin-left:40%;
+}
+
+.side{
+  width:40%;
+}
+
+.hid{
+  padding:0 12px;
+}
+
+.icon{
+  width:auto;
+  right:0;
+}
+
+.head{
+  padding:128px 16px;
+}
+
+.mont1{
+  display:block;
+  width:60%;
+  margin:auto;
+}
+
+.mont2{
+  width:1000;
+  height:1333;
+}
+
+.foot{
+  margin:-24px;
+}
+
+.price{
+  margin:0 -16px;
+}
+
+.con{
+  margin-bottom:64px;
+}
+
+.img1{
+  width:100%;
+  margin:32px 0;
+}
+
+.divi{
+  margin:0 -16px;
+}
+
+.imgp{
+  width:100%;
+}

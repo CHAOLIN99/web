@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small side">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright hid">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href=index.html class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href=por.html class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href=about.html class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href=contact.html class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large con">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black icon" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center head" id="home">
+    <h1 class="w3-jumbo"><b>Switzerland</b></h1>
+    <p>About</p>
+    <img src="img/mf.jpg" class="w3-image w3-hide-large w3-hide-small w3-round mont1">
+    <img src="img/mf.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round mont2">
+  </header>
+
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Including meat in one's diet offers several benefits. Firstly, it provides essential nutrients like high-quality proteins, vitamins, and minerals necessary for muscle growth, brain function, and overall health. Secondly, meat contributes to satiety, aiding in weight management and healthy eating habits. Moreover, it meets the specific dietary needs of certain groups and adds cultural and culinary enjoyment to meals. Lastly, responsible meat production supports sustainable practices and local economies. It's important to make informed choices considering individual health, ethics, and the environment, while maintaining a balanced approach to nutrition.
+    </p>
+    
+  
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16">Donation</h3>
+    <div class="w3-row-padding price">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Bird</li>
+          <li class="w3-padding-16">Dog</li>
+          <li class="w3-padding-16">Cat</li>
+          <li class="w3-padding-16">Pig</li>
+          <li class="w3-padding-16">Cow</li>
+          <li class="w3-padding-16">
+            <h2>$100,000,000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+      
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge foot">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium"> All right resver &#169;</p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+
+
+</body>
+</html>

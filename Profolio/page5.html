@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <title>About Me</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css">
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+      <script src="path/to/fontawesome.js"></script>
+      <script>
+         function toggleNavbar() {
+           var navbarMenu = document.getElementById("navbar-menu");
+           navbarMenu.style.display = (navbarMenu.style.display === "block") ? "none" : "block";
+         }
+
+        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+        }
+      </script>
+   </head>
+   <body>
+      <header>
+         <div class="navbar">
+            <div class="navbar-toggle" onclick="toggleNavbar()">
+               <i class="fa fa-bars"></i>
+            </div>
+            <div class="navbar-menu" id="navbar-menu">
+               <ul>
+               <li><a href="index.html" >Home</a></li>
+               <li><a href="page2.html" >Work Experience</a></li>
+               <li><a href="page3.html" >Work Experience</a></li>
+               <li><a href="page4.html" >Skills and Expertise </a></li>
+               <li><a href="page5.html" >About Me</a></li>
+               <li><a href="page6.html" >Web Design Sample</a></li>
+               <li><a href="page7.php" >Contact </a></li>
+            </ul>
+            </div>
+         </div>
+         <h1>About Me</h1>
+
+        <br>
+        <button onclick="myFunction()" class="fa fa-moon-o button-89 top-left-corner"></button>
+      </header>
+      <main>
+         <h2>PROFESSIONAL SUMMARY:</h2>
+         <p class="icenter"><em>Motivated professional offering proficiency in data entry combined with strong mathematical and
+            analytical thinking skills. Personable team player with exceptional customer service abilities. Fast
+            learner and committed to continuous, self-directed learning.</em>
+         </p>
+         <p class="icenter">VOLUNTEER EXPERIENCE:</p>
+         <ul class="icenter">
+            <li>Coached, instructed, and supervised participating volunteers through collaborative efforts</li>
+            <li>Taught local people skills to improve living conditions</li>
+            <li>Trained 100's of new volunteers on effective cooperation with the local community</li>
+            <li>Participated in continuous improvement by generating suggestions and engaging in 10+ problem-solving
+               activities to support teamwork
+            </li>
+         </ul >
+         <p class="icenter">EDUCATION:</p>
+         <p class="icenter">Brigham Young University-Hawaii</p>
+         <p class="icenter">Bachelor of Science-Computer Science<br>
+            Minor in Supply Chain Management
+         </p>
+         <p class="icenter">Subjects Learned:</p>
+         <ol class="icenter">
+            <li>Object-Oriented Programming</li>
+            <li>Algorithms and Complexity</li>
+            <li>Web Development</li>
+         </ol>
+         <img src="Img/about.jpeg" alt="mission" class="icenter">
+      </main>
+      <footer>
+         <p>&copy; Wei's Portfolio. All rights reserved.</p>
+         <a href="Wei.pdf" class="button-4" download>Download Resume</a>
+      </footer>
+      <script src="https://replit.com/public/js/replit-badge-v2.js"></script>
+   </body>
+</html>
